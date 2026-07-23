@@ -18,7 +18,7 @@ export default function NewTradePage() {
     <div className="mx-auto max-w-2xl space-y-6">
       <div>
         <h1 className="text-xl font-semibold tracking-tight">Add Trade</h1>
-        <p className="text-sm text-muted-foreground">Log the details while they're fresh.</p>
+        <p className="text-sm text-muted-foreground">Log the details while they &apos; re fresh.</p>
       </div>
       <TradeForm onSubmit={handleSubmit} submitting={createTrade.isPending} submitLabel="Add Trade" />
     </div>
